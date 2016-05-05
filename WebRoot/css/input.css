@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+@charset "UTF-8";
+
+div#container{width:auto; margin: auto;}
+div#header {text-align: left; margin-top: -30px; margin-left:13px; height: 70px; }
+
+.headmenu{text-align: right; border-top: solid 1px #6CA6CD;}
+.headmenu ul{ display: inline-block;margin-right: 20px; margin-top: 0px;margin-bottom: 0px;}
+.headmenu li{ color:#CDC8B1; float: left; list-style: none;padding:5px; border:#CDC8B1; cursor: pointer;font-size: 16px;}
+.headmenu li:HOVER{background-color: #36648B}
+.headmenu li + li {margin-left: 20px }
+
+.leftmenu {background-color:#3C4247; height:530px; width:85%; float:left;margin-left:13px;filter:alpha(opacity=60);opacity:0.6;border-radius:30px;positon:fixed;}
+.leftmenu ul {list-style: none; padding-top:30px;}
+
+.leftmenuname:link{color:＃FFFFFF;text-decoration:none;font-size: 22px;letter-spacing: 10px;margin-bottom: 0px; 
+					margin-top: 0px; margin-left: -40px;padding-top:5px;padding-bottom:5px;cursor: pointer;
+					display:block;text-align:center;} 
+.leftmenuname:HOVER{background-color: #36648B; }
+.leftmenuname{display:inline-block;height:40px;line-height:40px;width:174px;}
+
+div#footer {background-color:#8997A3; clear:both; text-align:center;float: bottom;}
+
+
+html, body{
+	padding:0;
+	margin:0;
+	position:relative;
+	background:url(../img/body.jpg);
+	background-repeat:repeat;
+	color:#fff;
+	letter-spacing:1px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.zebra caption{
+	margin-top: -50px;
+	color: #4382B5;
+	font-size:20px;
+	font-weight:normal;
+	background:url(../img/zebratable.png);
+	background-repeat:no-repeat;
+	background-position: 130px center;
+	padding-top: 20px;
+	height:50px;}
+
+#content{
+    color: #FFFFFF;
+	padding-top:60px;
+	width:1000px;
+	margin:0 auto;
+}
+
+table {
+	margin-left: 10px;
+    border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+	-webkit-box-shadow:  0px 2px 1px 5px rgba(242, 242, 242, 0.1);
+    box-shadow:  0px 2px 1px 5px rgba(242, 242, 242, 0.1);
+}
+
+.zebra {
+	margin-left: 10px;
+    border: 1px solid #555;
+}
+
+.zebra td {
+    border-left: 1px solid #555;
+    border-top: 1px solid #555;
+    padding: 10px;
+    text-align: center;    
+}
+
+.zebra th, .zebra th:hover {
+    border-left: 1px solid #555;
+	border-bottom: 1px solid #828282;
+    padding: 20px;  
+    background-color:#151515 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#404040)) !important;
+    background-image: -webkit-linear-gradient(top, #151515, #404040) !important;
+    background-image:    -moz-linear-gradient(top, #151515, #404040) !important;
+    background-image:     -ms-linear-gradient(top, #151515, #404040) !important;
+    background-image:      -o-linear-gradient(top, #151515, #404040) !important;
+    background-image:         linear-gradient(top, #151515, #404040) !important;
+	color:#fff !important;
+	font-weight:normal;
+}
+
+.zebra tbody tr:nth-child(even) {
+    background: #000 !important;
+	color:#fff;
+}
+
+
+.zebra tr {
+	background:#404040;
+	color:#fff;
+}
+
+
